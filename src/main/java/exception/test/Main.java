@@ -15,7 +15,7 @@ public class Main {
             double result = firstChallenge.divide(3, 0);
             System.out.println(result);
         }catch(Exception e) {
-            System.out.println("Can't divide by '0' ");
+            System.out.println("Can't divide by '0' " + e);
         }finally {
             System.out.println("End try-catch-finally");
         }
